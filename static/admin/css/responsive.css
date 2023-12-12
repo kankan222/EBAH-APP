@@ -1,0 +1,59 @@
+
+@media only screen and (max-width : 930px){
+    .search{
+        width: 250px;
+    }
+    .isaio{
+        position: unset;
+    }
+    aside{
+        z-index: 100;
+        display: none;
+        inset: 0;
+        background: var(--black-light);
+    }
+    nav{
+        background: var(--white);
+    }
+    .nav-lists ul a{
+        width: 90%;
+    }
+    .main{
+        width: 100%;
+        right: 0;
+    }
+}
+@media only screen and (max-width : 768px){
+    .main{
+        padding: 0;
+    }
+    .none{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    header{
+        padding: 0 1rem;
+    }
+    header .logo h3{
+        display: none;
+    }
+    .search{
+        display: none;
+        width: 300px;
+        background: var(--white);
+    }
+    .searchIcon{
+        display: block;
+    }
+    .notification{
+        right: 8rem;
+    }
+    .profileIcon{
+        right: 1rem;
+    }
+    .logo{
+        width: 40px;
+    }
+}
