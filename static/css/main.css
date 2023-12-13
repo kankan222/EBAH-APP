@@ -857,6 +857,18 @@ nav .nav-lists svg{
     align-items: center;
     gap: 5px;
 }
+.assign-to .eaccordion{
+    justify-content: space-between;
+}
+.assign-to .emp-acc-data{
+    display: none;
+}
+.assign-to .emp-acc-data.open{
+    display: block;
+}
+.eaccordion .right-arr.open{
+    transform: rotate(90deg);
+}
 .architecture .sub-tasks ul li input{
     accent-color: var(--primary-color);
 }
