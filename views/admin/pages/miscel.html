@@ -95,7 +95,7 @@
                     <!-- finance  -->
                     <ul>
                         <span class="namue">Finance</span>
-                        <a class="flex" onclick="location.href= `/views/admin/pages/finance.html`"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="money-bill"
+                        <a class="flex"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="money-bill"
                                 class="svg">
                                 <path fill="##000000"
                                     d="M6,11a1,1,0,1,0,1,1A1,1,0,0,0,6,11Zm12,0a1,1,0,1,0,1,1A1,1,0,0,0,18,11Zm2-6H4A3,3,0,0,0,1,8v8a3,3,0,0,0,3,3H20a3,3,0,0,0,3-3V8A3,3,0,0,0,20,5Zm1,11a1,1,0,0,1-1,1H4a1,1,0,0,1-1-1V8A1,1,0,0,1,4,7H20a1,1,0,0,1,1,1ZM12,9a3,3,0,1,0,3,3A3,3,0,0,0,12,9Zm0,4a1,1,0,1,1,1-1A1,1,0,0,1,12,13Z">
@@ -272,7 +272,7 @@
                                 <!-- ARCHITECTURE  -->
                                 <div class="architecture badge">
                                     <div class="arrow">
-                                        <p class="uppercase phead">Architecture</p>
+                                        <p class="uppercase phead">Miscellaneous</p>
                                         <div class="task-emp-status">
                                             <div class="main-btns flex">
                                                 <button class="status-btn flex" onclick="ChangeTaskStatus(this)">
@@ -336,112 +336,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- STRUCTURAL  -->
-                                <div class="structural badge">
-                                    <div class="arrow">
-                                        <p class="uppercase phead">STRUCTURAL</p>
-                                        <div class="task-emp-status">
-                                            <div class="main-btns flex">
-                                                <button class="status-btn flex" onclick="ChangeTaskStatus(this)">
-                                                    <span class="status_project">Status</span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        id="arrow-circle-down">
-                                                        <path fill="##000000"
-                                                            d="M11.29,15.71a1,1,0,0,0,.33.21,1,1,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42L13,12.59V9a1,1,0,0,0-2,0v3.59l-1.29-1.3a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.42ZM12,22A10,10,0,1,0,2,12,10,10,0,0,0,12,22ZM12,4a8,8,0,1,1-8,8A8,8,0,0,1,12,4Z">
-                                                        </path>
-                                                    </svg>
-                                                </button>
-                                                <button class="" onclick="empPopup()">Employee</button>
-                                                <button class="" onclick="subPopup()">Tasks</button>
-                                            </div>
-                            
-                                        </div>
-                                    </div>
-
-                                    <div class="sub-tasks sbox">
-                                        <div class="assign-to">
-                                            <div class="eaccordion flex">
-                                                <p class="uppercase phead">assigned to</p>
-                                                <span class="right-arr">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-double-right" class="svg"><path fill="##000000" d="M8.46,8.29A1,1,0,1,0,7,9.71L9.34,12,7,14.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l3-3a1,1,0,0,0,0-1.42Zm8.5,3-3-3a1,1,0,0,0-1.42,1.42L14.84,12l-2.3,2.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l3-3A1,1,0,0,0,17,11.29Z"></path></svg>
-                                                </span>
-                                            </div>
-                                            <ul class="emp-acc-data">
-                                                <li class="add-empl">Sri Venkataraman Venugopal Iyer</li>
-                                                <li class="add-empl">Sri Venkataraman Venugopal Iyer</li>
-                                            </ul>
-                                        </div>
-                                        <hr class="show">
-                                        <div class="tasks-added">
-                                            <p class="uppercase phead">tasks</p>
-                                            <ul>
-                                                <li class="stasks">
-                                                    <input type="checkbox" name="plumbing" class="">
-                                                    <span>Plumbing</span>
-                                                </li>
-                                                <li class="stasks">
-                                                    <input type="checkbox" name="electricity" id="">
-                                                    <span>Electricity</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- 3D  -->
-                                <div class="thrd badge">
-                                    <div class="arrow">
-                                        <p class="uppercase phead">3D</p>
-                                        <div class="task-emp-status">
-                                            <div class="main-btns flex">
-                                                <button class="status-btn flex" onclick="ChangeTaskStatus(this)">
-                                                    <span class="status_project">Status</span>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-                                                        id="arrow-circle-down">
-                                                        <path fill="##000000"
-                                                            d="M11.29,15.71a1,1,0,0,0,.33.21,1,1,0,0,0,.76,0,1,1,0,0,0,.33-.21l3-3a1,1,0,0,0-1.42-1.42L13,12.59V9a1,1,0,0,0-2,0v3.59l-1.29-1.3a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.42ZM12,22A10,10,0,1,0,2,12,10,10,0,0,0,12,22ZM12,4a8,8,0,1,1-8,8A8,8,0,0,1,12,4Z">
-                                                        </path>
-                                                    </svg>
-                                                </button>
-                                                <button class="" onclick="empPopup()">Employee</button>
-                                                <button class="" onclick="subPopup()">Tasks</button>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="sub-tasks sbox">
-                                        <div class="assign-to">
-                                            <div class="eaccordion flex">
-                                                <p class="uppercase phead">assigned to</p>
-                                                <span class="right-arr">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="angle-double-right" class="svg"><path fill="##000000" d="M8.46,8.29A1,1,0,1,0,7,9.71L9.34,12,7,14.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l3-3a1,1,0,0,0,0-1.42Zm8.5,3-3-3a1,1,0,0,0-1.42,1.42L14.84,12l-2.3,2.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0l3-3A1,1,0,0,0,17,11.29Z"></path></svg>
-                                                </span>
-                                            </div>
-                                            <ul class="emp-acc-data">
-                                                <li class="add-empl">Sri Venkataraman Venugopal Iyer</li>
-                                                <li class="add-empl">Sri Venkataraman Venugopal Iyer</li>
-                                            </ul>
-                                        </div>
-                                        <hr class="show">
-                                        <div class="tasks-added">
-                                            <p class="uppercase phead">tasks</p>
-                                            <ul>
-                                                <li class="stasks">
-                                                    <input type="checkbox" name="plumbing" class="">
-                                                    <span>Plumbing</span>
-                                                </li>
-                                                <li class="stasks">
-                                                    <input type="checkbox" name="electricity" id="">
-                                                    <span>Electricity</span>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
 
                         </div>
                     </div>
-                    <div class="main-dropdown">
+                    <div class="main-dropdown hide">
                         <div class="status-dropdown-menu common_dropdown">
                             <ul>
                                 <li class="red">

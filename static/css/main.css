@@ -499,6 +499,7 @@ nav .nav-lists svg{
     margin: 0.5rem auto;
     height: 50vh;
     overflow-y: scroll;
+    position: relative;
 }
 .info-content .accordion-content{
     margin: 1rem;
@@ -651,8 +652,21 @@ nav .nav-lists svg{
     width: 16px;
     fill: var(--white);
 }
-.task-emp-status .main-dropdown{
-    position: relative;
+.info-content .main-dropdown{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--black-light);
+    /* inset: 0; */
+    height: 100vh;
+}
+.main-dropdown .common_dropdown{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 480px; */
 }
 .main-dropdown ul li{
     padding: 4px;
@@ -695,15 +709,12 @@ nav .nav-lists svg{
 }
 /* -----------STATUS DROPDOWN MENU ------------- */
 .main-dropdown .status-dropdown-menu{
-    position: absolute;
-    top: 5px;
-    left: 0;
     background: var(--white);
     width: 120px;
     padding: 8px;
     border-radius: var(--border-radius-1);
     z-index: 105;
-    display: none;
+    /* display: none; */
 }
 .main-dropdown .status-dropdown-menu.active{
     display: block;
@@ -737,15 +748,12 @@ nav .nav-lists svg{
 
 /* ----EMPLOYEE DROPDOWN MENU-------- */
 .main-dropdown .emp-drop-menu{
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 100%;
+    width: 300px;
     background: var(--sec-light-color);
     box-shadow: var(--box-shadow-1);
     padding: 8px;
     border-radius: var(--border-radius-1);
-    display: none;
+    /* display: none; */
 }
 .emp-drop-menu.active{
     display: block;
@@ -762,6 +770,7 @@ nav .nav-lists svg{
     font-weight: 600;
     margin: 10px auto;
     background: var(--white);
+    text-wrap: wrap;
 }
 .emp-drop-menu ul li input:checked ~ span{
     color: var(--secondary-color);
@@ -782,15 +791,12 @@ nav .nav-lists svg{
 }
 /* -------TASK MENU DROPDOWN-------- */
 .main-dropdown .task-drop-menu{
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 100%;
+    width: 200px;
     background: var(--green-light);
     box-shadow: var(--box-shadow-1);
     padding: 8px;
     border-radius: var(--border-radius-1);
-    display: none;
+    /* display: none; */
 }
 .task-drop-menu.active{
     display: block;
@@ -807,6 +813,7 @@ nav .nav-lists svg{
     font-weight: 600;
     margin: 10px auto;
     background: var(--white);
+    text-wrap: wrap;
 }
 .task-drop-menu ul li input{
     accent-color: var(--green);

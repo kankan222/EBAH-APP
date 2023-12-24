@@ -9,3 +9,7 @@ function toggleForm(formId) {
       }
     });
   }
+  
+ function openDick(){
+  document.querySelector(`.main-dropdown`).style.display = `block`;
+ }

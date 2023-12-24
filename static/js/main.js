@@ -63,7 +63,6 @@ if(window.innerWidth < 780){
 // ACCORDION
 document.querySelectorAll(`.accordion-content`).forEach((item, index) =>{
     let header = item.querySelector(".ahead");
-    console.log(header);
     header.addEventListener("click", () => {
         item.classList.toggle("open");
         let description = item.querySelector(".adata");
