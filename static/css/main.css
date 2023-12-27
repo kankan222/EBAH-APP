@@ -142,10 +142,10 @@ header{
     border-radius: var(--border-radius-1);
     background: var(--bg-2);
     outline: 1px solid var(--black-light);
-    animation: var(--animation-1);
     padding: 0 2.8rem 0 2.3rem ;
     font-size: 1rem;
     word-wrap: break-word;
+    font-weight: 500;
 }
 .search input:hover{
     outline: 1px solid var(--black-light-2);
@@ -478,7 +478,7 @@ nav .nav-lists svg{
     word-wrap: break-word;
 }
 .main .box{
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 1.5rem;
     border-radius: var(--border-radius-2);
 }
@@ -511,7 +511,7 @@ nav .nav-lists svg{
     /* overflow: hidden; */
 }
 .info-content .accordion-content:hover{
-    background: var(--bg-2);
+    background: var(--bg-3);
 }
 .info-content .accordion-content p{
     font-size: 14px;
@@ -930,4 +930,13 @@ nav .nav-lists svg{
 }
 .pages li:is(.active, :hover) svg{
     fill: var(--white);
+}
+/* --------------MISCELLANEOUS SECTION-------------------- */
+.misContainer{
+    background: var(--white);
+    border-radius: var(--border-radius-2);
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    margin-top: 1rem;
 }

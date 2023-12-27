@@ -137,6 +137,7 @@
     background: var(--white);
     padding: 10px;
     border-radius: var(--border-radius-1);
+    width: 300px;
 }
 .main-dropdown .finance-dropdown .flex{
    margin-top: 16px;
@@ -156,6 +157,7 @@
     padding: 0 8px;
     font-size: 14px;
     word-wrap: break-word;
+    font-weight: 500;
 }
 .main-dropdown .finance-dropdown input:hover{
     outline: 1px solid var(--black-light-2);
