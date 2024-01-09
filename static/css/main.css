@@ -215,7 +215,30 @@ header{
 .profileIcon svg{
     fill: var(--secondary-color);
 }
-
+.account-settings{
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
+    width: 150px;
+    background: var(--white);
+    height: 3rem;
+    border-radius: var(--border-radius-2);
+    font-size: 14px;
+    padding-left: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding-top: 11px;
+}
+.account-settings svg{
+    fill: var(--black);
+}
+.account-settings:hover{
+    color: var(--primary-color);
+    background: var(--bg-color);
+}
+.account-settings:hover svg{
+    fill: var(--primary-color);
+}
 .isaio{
     overflow: hidden;
     width: 100dvw;
@@ -232,6 +255,7 @@ nav{
     height: 100vh;
     padding-left: 1rem;
     padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 /* ---------hamburger------ */
 nav.width{
@@ -244,6 +268,8 @@ nav h3{
 nav .nav-lists{
     margin-top: 2rem;
     cursor: pointer;
+    overflow: scroll;
+    height: 100%;
 }
 nav .nav-lists hr{
     outline: 1px solid var(--sec-light-color);

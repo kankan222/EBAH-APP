@@ -170,3 +170,7 @@ function toggleDiv(divId) {
 function closeAlert(){
     document.querySelector(`.status`).style.display = `none`;
 }
+
+function openProfile(){
+    document.querySelector(`.profile-log-out`).classList.toggle(`hide`);
+}

@@ -455,7 +455,7 @@
     color: var(--primary-color);
     cursor: pointer;
 }
-.profile-main .profile-main-project:hover p{
+.profile-main .profile-main-project p.primary:hover{
     background: var(--primary-light-color);
 }
 .profile-main .profile-main-project p.blue{
