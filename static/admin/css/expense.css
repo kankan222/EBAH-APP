@@ -1,3 +1,5 @@
+
+
 .expensebox{
     margin-top: 1rem;
     background: var(--white);
@@ -159,7 +161,7 @@
     font-size: 1rem;
     font-weight: 500;
 }
-.expense-addition-box button{
+:is(.expense-addition-box, .expense-grid) button{
     padding: 12px;
     border-radius: var(--border-radius-1);
     font-size: 16px;
