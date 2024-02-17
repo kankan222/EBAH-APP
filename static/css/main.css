@@ -44,8 +44,8 @@
     text-decoration: none;
 }
 body{
-    width: 100dvw;
-    height: 100dvh;
+    width: 100vw;
+    height: 100vh;
 }
 html{
     scroll-behavior: smooth;
