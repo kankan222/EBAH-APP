@@ -24,8 +24,8 @@
                 </div>
                 <div class="field field1">
                     <label for="">Password</label>
-                    <input type="text" name="" id="">
-                    <i class="uil uil-eye"></i>
+                    <input type="text" name="" id="Password">
+                    <i class="uil uil-eye" id="eye"></i>
                 </div>
                 <div class="flex">
                     <div class="field">
@@ -44,5 +44,22 @@
         <hr>
         <a class="last">Don't have an account?</a>
     </div>
+
+    <!-- --JS-- -->
+    <script>
+        const passField = document.querySelector("#Password");
+        const toggleBtn = document.querySelector("#eye");
+    
+        toggleBtn.onclick = () => {
+          if (passField.type == "password") {
+            passField.type = "text";
+            toggleBtn.classList.add("active");
+          }
+          else {
+            passField.type = "password";
+            toggleBtn.classList.remove("active");
+          }
+        }
+      </script>
 </body>
 </html>
